@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Rohan Shah</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<head>
+  <title>My class webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Introduction to web programming</h1>
+
+  <div class="lesson">
+    <h2>Lesson1:The Basics of the Web and HTML</h2>
+    <div class="concept">
+      <div class="concept-title">
+        <b><em>World wide web</em></b>  
+      </div>
+      <div class="concept-description">
+        <p>
+          <u>Web</u>:The major pieces of web are computer, browsers, the internet 
+          and servers. It is a primarily collection of HTML documents.
+        </p>
+
+          <u>HTML</u>:It is main document type on web and glues everything 
+          together on web.It stands for <span class="italic">hypertext markup language</span> and is made up of:-
+          <ul><li>text content(what you see)</li></ul>
+          <ul><li><span class="bold">markups</span>(how it looks like)</li></ul>
+          <ul><li>references to other documents and links to other pages(image/videos)</li></ul>
+
+        <p>
+          <u>Urls</u>: It is how you refer to documents on web.     
+        </p>
+        <p>
+          <u>HTTP</u>:It is the mail protocol of web and used by internet/browsers to communicate with servers. 
+        </p> 
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b><em>HTML markup basics</em></b>  
+      </div>
+      <div class="concept-description">
+
+          HTML markups are made of Tags and Elements:
+          <div> 
+            <ul>
+              <li>
+              <span class="italic">Tag</span>:a anchor tag, b bold tag,em emphasis tag,p paragraph tag,br break tag,
+              img image(img src=”url” alt=”text”.It is a void tag with no contents)
+              </li> 
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <span class="italic">Elements</span>: (opening tag) contents of tag (closing tag)
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <span class="italic">Attributes</span>: (open tag -> attr=”value”)  contents (close tag)
+                Ex: <a href=”www.udacity.com”>This website is my favorite</a>
+              </li>
+            </ul>
+          </div>
+
+          Note: Inline vs Block elements.The block elements 
+          create invisible boxes around contents inside. 
+          <div>
+            <ul>
+              <li>
+                Inline:br/span/a/img/strong tags
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                Block:p/div tags
+              </li>
+            </ul>
+          </div>         
+
+      </div> 
+    </div>  
+
+  </div>
+
+  <div class="lesson">
+    <h2>
+      Lesson2:Creating a Structured Document with HTML
+    </h2>
+      <div class="concept">
+        <div class="concept-title">
+          <b><em>3 languages’ for web development</em></b>
+        </div>
+        <div class="concept-description">
+
+            <ul>
+              <li>
+                <span class="italic">HTML</span>:Hypertext markup language is main document of web.
+                It provides Structure for webpage.
+              </li>       
+              <li>
+                <span class="italic">CSS</span>:A framework which helps develop webpage quickly. 
+                It provides Style for webpage.
+              </li>       
+              <li>
+                <span class="italic">JS</span>:Javascript are interactive components of webpage.
+              </li>
+            </ul>
+
+          <p>
+            Note:Google chrome->Tools->Developer tool shows webpage structure.
+          </p>
+        </div>
+      </div>
+
+      <div class="concept">
+        <div class="concept-title">
+          <b><em>Tree structure of browser</em></b>        
+        </div>
+        <div class="concept-description">
+          <p>
+            The elements are structured inside each other which can contain
+            elements or contents.Programmers often talk about DOM(Document Object Model) 
+            which is tree-like structure of a page and tandard convention for interacting in HTML.
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">
+          <b><em>HMTL is all about boxes!</em></b>        
+        </div>
+        <div class="concept-description">
+          <p>
+            Everything on webpage is actually a box. Once we define box structure for
+            webpage then all the elements can be easily re-arranged around those 
+            boxes to create different user experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="concept">
+        <div class="concept-title">
+          <b><em>3 Code editors’ tools and their utility </em></b>
+        </div>
+        <div class="concept-description">
+
+              <ul>
+                <li>
+                  <span class="italic">Scratchpad</span>:Beginner friendly, not powerful but immediate feedback, supports HTML only.
+                </li>
+                <li>
+                  <span class="italic">Codepen</span>:Ease of sharing, Supports HTML & CSS only.
+                </li>
+                <li>
+                  <span class="italic">Sublime text</span>:Most powerful and supports all three languages of web.
+                </li>
+              </ul>
+
+        </div>
+      </div>
+
+  </div>
+
+  <div class="lesson">
+    <h2>
+      Lesson3:Adding CSS style to HTML structure
+    </h2>
+      <div class="concept">
+        <div class="concept-title">
+          <b><em>Cascading Style sheets</em></b>
+        </div>
+        <div class="concept-description">
+          <p>
+            CSS stands for Cascading style sheets. Programmers should know that avoiding repetition is essential to all areas of programming. We use CSS to avoid that repetition.
+            You can have several CSS files/sheets which is used to find out invisible style for webpage. 
+          </p>
+
+            The two concepts to understand with CSS are:-
+            <ul>
+            <li><span class="italic">Inheritance</span>: properties application to not only a specified element but also its descendants.</li>
+            <li><span class="italic">Abstract thinking</span>: applying generality amongst seemingly different things”.</li>
+            </ul>
+
+            CSS is basically a search and replace tool.You identify a class or tag of element you want to find and then what you want to do it or what property values to replace with different ones.
+            This feature of CSS has powerful advantage and disadvantage:-
+            <ul>
+              <li><span class="italic">Advantage</span>: Using CSS one can avoid repetition in our code lets us save time and avoid creating errors due to manual addition of similar code.</li>
+              <li><span class="italic">Disadvantage</span>: If a programmer ends up changing CSS and has errors it will cascade to many sections of code.</li>
+            </ul>            
+
+        </div>
+      </div>  
+  </div>
+
+</body>
+
+</body>
+
+</html>
